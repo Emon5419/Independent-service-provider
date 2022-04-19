@@ -10,21 +10,21 @@
       "id": 2,
       "name": "Homo Deus ",
       "price": "360",
-      "description": "Homo Deus: A Brief History of Tomorrow examines what might happen to the world when old myths are coupled with new godlike technologies, such as artificial intelligence and genetic engineering.",
-      "img": "https: //encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb4_okkcSfLo4akGYYo-7DTVAxHmESq3_bXa9jGqjFxfevBdoP"
+      "description": "Homo Deus: A Brief History of Tomorrow examines what might happen to the world when old myths are coupled with new godlike technologies, such as artificial intelligence.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb4_okkcSfLo4akGYYo-7DTVAxHmESq3_bXa9jGqjFxfevBdoP"
    },
    {
       "id": 3,
       "name": "21 Lessons for the 21 Century",
       "price": "400",
-      "description": "In a world deluged by irrelevant information, clarity is power. Censorship works not by blocking the flow of information, but rather by flooding people with disinformation and distractions. 21 Lessons for the 21st Century cuts through these muddy waters and confronts some of the most urgent questions on today’s global agenda.",
-      "img": "https: //encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTuKYBCdYT37lJlvRNKPW4bCralc7OCsa6sMEta3f_asqdWOGNk"
+      "description": "In a world deluged by irrelevant information, clarity is power. Censorship works not by blocking the flow of information, but rather by flooding people with disinformation and distractions.",
+      "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTuKYBCdYT37lJlvRNKPW4bCralc7OCsa6sMEta3f_asqdWOGNk"
    },
    {
       "id": 4,
       "name": "Sapiens: A Graphic History",
       "price": "450",
-      "description": "Sapiens: A Graphic History is an epic, radical adaptation of Yuval Noah Harari’s bestselling book into a graphic novel series; bursting with wit, humor, pop culture references and colourful illustrations. Harari (as co-writer) has teamed up with renowned comics artists, David Vandermeulen (co-writer) and Daniel Casanave (illustrator), to retell the story of humankind in a way that will captivate all adults and young adults – including those who don’t usually read science and history books.",
-      "img": "https: //encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStGS_pHe14TFg8vyUcCdWPbRlUmO6FeaeT_UQf9OhEMVpoVQNj"
+      "description": "Sapiens: A Graphic History is an epic, radical adaptation of Yuval Noah Harari’s bestselling book into a graphic novel series; bursting with wit, humor, pop culture references and colourful illustrations.",
+      "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStGS_pHe14TFg8vyUcCdWPbRlUmO6FeaeT_UQf9OhEMVpoVQNj"
    }
 ]
