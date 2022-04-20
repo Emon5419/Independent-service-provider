@@ -5,6 +5,7 @@ const Blogs = () => {
       <div>
          <h2>This Our Blogs</h2>
       </div>
+
    );
 };
 
