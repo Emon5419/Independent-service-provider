@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
    return (
@@ -10,11 +11,13 @@ const Header = () => {
                <Navbar.Brand href="#home">
                   <img src='https://www.ynharari.com/wp-content/uploads/2020/01/ynhlogo.png' height="50" alt="" />
                </Navbar.Brand>
-               <Nav className="ms-8">
-                  <Nav.Link to="/home">Home</Nav.Link>
-                  <Nav.Link to="/services">Services</Nav.Link>
-                  <Nav.Link to="/blogs">Blogs</Nav.Link>
-               </Nav>
+
+               <div className="link-container ms-8">
+                  <Link to="/home">Home</Link>
+                  <Link to="/services">Services</Link>
+                  <Link to="/blogs">Blogs</Link>
+                  <Link to="/login">Login</Link>
+               </div>
             </Container>
          </Navbar>
 

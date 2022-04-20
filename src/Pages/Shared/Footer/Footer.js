@@ -3,6 +3,9 @@ import './Footer.css';
 
 
 const Footer = () => {
+
+   const today = new Date();
+   const year = today.getFullYear();
    return (
       <footer className=''>
          <div className="footer-container">
@@ -30,7 +33,7 @@ const Footer = () => {
          <div className="copyright-container">
 
             <div>
-               <p className='text-center'><small>Copyright © 2010-2025, All Rights Reserved.</small></p>
+               <p className='text-center'><small>Copyright © {year}, All Rights Reserved.</small></p>
             </div>
 
             <div className="footer-img-contanier">

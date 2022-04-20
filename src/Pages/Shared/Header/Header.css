@@ -1,9 +1,12 @@
 .navbar-contanier {
    width: 100%;
-   background-color: lightcyan;
-   color: black;
+   background-color: black;
+   color: white;
    position: fixed;
    height: 50px;
+}
 
-
+.navbar-contanier link-container a {
+   text-decoration: none;
+   margin-right: 10px;
 }

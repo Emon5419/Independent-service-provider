@@ -1,6 +1,16 @@
-.service{
+.service {
     border: 1px solid lightgray;
     border-radius: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     text-align: center;
+}
+
+.service:hover {
+    background-color: rgb(32, 0, 159);
+    color: white;
+}
+
+.service img {
+    padding: 5px;
+
 }
