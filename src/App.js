@@ -6,6 +6,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 import Login from './Pages/Login/Login';
 import CheckIn from './Pages/CheckIn/CheckIn';
+import Notfound from './Pages/Shared/Notfound/Notfound';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/blogs" element={<Blogs />}></Route>
         <Route path="/checkin/:checkinId" element={<CheckIn />}></Route>
         <Route path="/login" element={<Login />}></Route>
+        <Route path="*" element={<Notfound />}></Route>
       </Routes>
       <Footer />
     </div>
