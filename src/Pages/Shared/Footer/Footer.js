@@ -36,13 +36,6 @@ const Footer = () => {
                <p className='text-center'><small>Copyright © {year}, All Rights Reserved.</small></p>
             </div>
 
-            <div className="footer-img-contanier">
-               <img src='https://cdn-icons-png.flaticon.com/512/145/145802.png' alt="" />
-               <img src='https://cdn-icons-png.flaticon.com/512/145/145812.png' alt="" />
-               <img src='https://cdn-icons-png.flaticon.com/512/145/145808.png' alt="" />
-               <img className='rounded-pill' src='https://cdn-icons.flaticon.com/png/512/3669/premium/3669965.png?token=exp=1650348876~hmac=779ef9e053168adce1aa1dcab666a237' alt="" />
-            </div>
-
          </div>
       </footer >
    );
