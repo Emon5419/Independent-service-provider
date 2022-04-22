@@ -13,33 +13,39 @@ const Register = () => {
 
    const handleRegister = event => {
       event.preventDefault();
+      const name = event.target.name.value;
+      const email = event.target.email.value;
+      const password = event.target.password.value;
+
+
    }
 
    return (
       <div className="mt-5 mb-5 w-50 mx-auto">
-         <Form onSubmit={handleRegister}>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-               <Form.Label>Email address</Form.Label>
-               <Form.Control type="email" placeholder="Enter email" required />
-            </Form.Group>
+         <h1>Please Register</h1>
 
+         <Form onSubmit={handleRegister}>
+
+            <Form.Group className="mb-3" controlId="formBasicText">
+               <Form.Control type="text" placeholder="Enter your name" required />
+            </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicEmail">
-               <Form.Label>Confirm Email address</Form.Label>
                <Form.Control type="email" placeholder="Enter email" required />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">
-               <Form.Label>Password</Form.Label>
-               <Form.Control type="password" placeholder="Password" required />
+               <Form.Control type="password" placeholder="password" required />
             </Form.Group>
 
-            <p><small>Alredy have an account? <Link to="/login" className="text-primary text-decoration-none"> Please Login</Link> </small></p>
             <Button onClick={navigateLogin} variant="primary" type="submit">
                Register
             </Button>
+
+            <p><small>Alredy have an account? <Link to="/login" className="text-primary text-decoration-none"> Please Login</Link> </small></p>
+
          </Form>
 
-      </div>
+      </div >
    );
 };
 
