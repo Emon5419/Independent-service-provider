@@ -1,15 +1,18 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
-const CheckIn = () => {
-   const { checkinId, name } = useParams()
+const ServiceDetail = () => {
+   const { checkinId } = useParams();
    return (
       <div>
-         <h1>Check-In Page : {checkinId}</h1>
-         <h1>{name}</h1>
+         <h2>Welcome to detail: {checkinId}</h2>
+         <div className='text-center'>
+            <Link to="/checkout">
+               <button className='btn btn-primary'>Proceed Checkout</button>
+            </Link>
+         </div>
       </div>
-
    );
 };
 
-export default CheckIn;
+export default ServiceDetail;

@@ -1,0 +1,15 @@
+.text-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+}
+.btn-explore{
+   border: 1px solid tomato;
+   background-color: tomato;
+   border-radius: 5px;
+   padding: 5px;
+}
+.btn-explore a{
+      color: white;
+}
