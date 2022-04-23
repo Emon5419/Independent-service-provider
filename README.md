@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# NFSC-Writer-Club
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Firebase Deployment Live Site Link: [NFSC](https://nfsc-writer-club.web.app/).
 
 ## Available Scripts
 
@@ -68,4 +68,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# independent-service-provider-Emon5419" 
+"# independent-service-provider-Emon5419"
