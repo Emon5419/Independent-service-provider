@@ -1,16 +1,14 @@
 # NFSC-Writer-Club
-
-LiveSite: [https://nfsc-writer-club.web.app/](https://nfsc-writer-club.web.app/)
+# [Website](https://nfsc-writer-club.web.app/)
 
 ## List of Used Framwork:
-
 1. Google Firebase,
 2. React Bootstrap,
 3. React Firebase Hooks,
 4. React Router,
 5. React Toastify.
 
-### The Projects Information:
+## The Projects Information:
 
 - This is Independent Person Service Releted Website,
 - This Website have many pages,
